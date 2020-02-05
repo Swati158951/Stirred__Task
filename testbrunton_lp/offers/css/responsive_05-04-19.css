@@ -1,0 +1,67 @@
+@media screen and (max-width: 1200px) {
+	.right {width: 28%;}
+	.mid { padding: 0 0 0 13%;}
+}
+@media screen and (max-width:1000px) {
+	.about .left {width: 100%;}
+	.about .left .imglft {width: 100px; padding: 30px; left: calc(50% - 100px);}
+	.mid {padding: 0;width: 100%;margin: 30px 0;}
+	.right {width: 100%;}
+	.right a{ margin-top: 20px;}
+}
+
+@media screen and (max-width:768px) {
+	p{font-size: 15px;}
+ 	.banner{overflow: hidden;}
+	.banner img.fullwidth {height: 440px;width: auto; max-width: 500%; margin-left: -40%;}
+	.header{ padding-top: 20px;}
+	.header a img{ max-width: 130px;}
+	.about .left {min-height: 120px;}
+	.about .left .imglft {min-width: 50px;left: calc(50% - 90px);width: 180px;}
+	.mid h1{ font-size: 25px;}
+	.right h2{ font-size: 24px;line-height: 28px;}
+	.right a {margin-top: 10px;padding: 15px 25px;font-size: 15px;}
+	.owl-dots{ bottom: 155px;}
+	.owl-dot {height: 20px;width: 20px;	margin: 0px 3px;}
+	.owl-dot span {	width: 7px;	height: 7px;float: left;margin-left: 5px;}
+	.owl-carousel p{ margin-top: 80px;}
+	.experice{ padding:30px 0 0 0;}
+	.experice img{ max-width:200px;margin: 20px 0 10px 0;}
+	.experice h3 {font-size: 25px;}
+	.owl-carousel .owl-item img.artimg{ width: 200px;}
+	.owl-carousel .owl-item img {max-width: 100%;}
+	.destinationhigh{ top:100px;}
+	.destinationhigh h3{ font-size: 25px;}	
+	.destinationhigh img {max-width: 200px;}
+	.sliderarea.desti .owl-dots {bottom:175px;}
+	.sliderarea.desti h4 {	font-size: 20px;margin: 70px auto 10px auto;}
+	.gettinthere{ margin-top: 30px; padding:40px 0;}
+	.gettinthere .container{max-width: 90%;}
+	.gettinthere .left {width: 100%;padding-right: 0;border-bottom: 1px solid #4F4A4A;border-right: none;text-align: center;}
+	.gettinthere .right{ width: 100%; text-align: center;}
+	.booknow{ padding: 40px 0;}
+	.testimonials {padding: 30px 0;margin-top: 30px;}
+	.testimonials img.artimg{ width: 200px;margin-bottom: 20px;}
+	.sliderarea{ margin-bottom: 0;}
+	.testimonials h3{ font-size: 20px; margin-bottom:20px;}
+	.testimonials .container {max-width: 90%;}
+	.testimonials .ratingcopy p {margin: 0px 0px !important;line-height: 26px;}
+	.gettinthere p {font-size: 16px;margin: 15px 0;line-height: 25px;}
+	footer{padding: 30px 20px;}
+}
+
+
+@media screen and (max-width:600px) {
+	footer .left1{ width: 100%;}
+	footer .right1{ width: 100%;}
+	.booknow ul li p, .booknow ul li .inpt{ font-size: 12px;}
+}
+
+@media screen and (max-width:500px) {
+	.date_pik{ margin: 10px 0;}
+	.datfx, .datetxt {width: 50%; margin-left: 0; margin-top:10px;}
+	.datfx.paddinadjst {padding-left: 0;clear: both;}
+	.owl-dots {bottom: 175px;}
+ 	.owl-carousel p {margin-top: 65px;line-height: 25px;}
+ 	.container_testi{ padding: 30px 40px;}
+}
